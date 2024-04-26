@@ -14,6 +14,8 @@ Hosted by [The Center Quantitative Cell Biology (QCB)](https://qcb.illinois.edu/
 - **Date:** May 6, 2024 - May 10, 2024 
 - **Location:** University of Illinois Urbana-Champaign
 - **Format:** in person
+
+
 | Day | Date         | Instructors                                          | Morning Session                                                                    | Afternoon Session                                                                         | Teaching Assistants                              |
 |-----|--------------|------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------------------------------------|
 | 1   | Monday, May 6| Zan Luthey-Schulten, Zane Thornburg, Ben Gilbert     | Introduction to cellular processes in JCVI-Syn3A and Lattice Microbes             | LM models of metabolism, DNA replication, transcription, translation, and growth         | Enguang Fu, Andrew Maytin, Tianyu Wu            |
