@@ -1,7 +1,7 @@
 # STC-QCB Advanced Computational Workshop 2024: Lattice Microbe Part
 
 ![STC-QCB Workshop 2024 Logo](images/logo.jpg)
-
+![LM](./images/lm.png)
 Welcome to the repository for the STC-QCB Advanced Workshop 2024, focusing on the Lattice Microbe Part. This workshop is targeted to those who have been using computational tools for a while and want to increase their knowledge and skills. 
 
 ## About the Workshop
@@ -23,7 +23,7 @@ Hosted by [The Center Quantitative Cell Biology (QCB)](https://qcb.illinois.edu/
 | 5   | Friday, May 10| Shulei Wang, Zan Luthey-Schulten                     | Introduction to machine learning of LM trajectories of the minimal cell and bringing cells to Minecraft| -                                                         | Rong Wei, Kevin Tan, Tianyu Wu                  |
 
 ## Sections on Lattice Microbe
-![LM](./images/lm.png)
+
 The workshop will feature a series of lectures, hands-on sessions, and discussions led by renowned scientists in the field. Participants will have the opportunity to engage in interactive sessions that cover a range of topics, including:
 
 - Whole Cell Modeling with CME-ODE on minimal cell
