@@ -10,10 +10,17 @@ Diverse experimental data characterizing the cellular state and processes of the
 
 Hosted by [The Center Quantitative Cell Biology (QCB)](https://qcb.illinois.edu/), this workshop aims to provide participants with an in-depth understanding of the lattice microbe v2.4 for the whole cell modeling.
 
-### Key Details
+### Schedule
 - **Date:** May 6, 2024 - May 10, 2024 
 - **Location:** University of Illinois Urbana-Champaign
 - **Format:** in person
+| Day | Date         | Instructors                                          | Morning Session                                                                    | Afternoon Session                                                                         | Teaching Assistants                              |
+|-----|--------------|------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------------------------------------|
+| 1   | Monday, May 6| Zan Luthey-Schulten, Zane Thornburg, Ben Gilbert     | Introduction to cellular processes in JCVI-Syn3A and Lattice Microbes             | LM models of metabolism, DNA replication, transcription, translation, and growth         | Enguang Fu, Andrew Maytin, Tianyu Wu            |
+| 2   | Tuesday, May 7| Siewert-Jan Marrink, Weria Pezeshkian, Zane Thornburg| Introduction to Martini 2 & 3 force field and tools                               | Martini metabolites, lipids, proteins, ribosomes, and DNA in JCVI-Syn3A                  | Jan Stevens, Aaron Chan, Bart Bruininks         |
+| 3   | Wednesday, May 8| Erik Lindahl, John Stone, Zane Thornburg            | New features of Gromacs and Martini/Gromacs simulations                            | VMD Visualization and Movies of JCVI-Syn3A                                               | Jan Stevens, Enguang Fu, Bart Bruininsk         |
+| 4   | Thursday, May 9| Erik Lindahl, Siewert-Jan Marrink, Emad Tajkorshid   | Further applications of and discussions about Martini/Gromacs simulations         | Free time – projects on NCSA Delta and picnic                                            | -                                               |
+| 5   | Friday, May 10| Shulei Wang, Zan Luthey-Schulten                     | Introduction to machine learning of LM trajectories of the minimal cell and bringing cells to Minecraft| -                                                         | Rong Wei, Kevin Tan, Tianyu Wu                  |
 
 ## Sections on Lattice Microbe
 
