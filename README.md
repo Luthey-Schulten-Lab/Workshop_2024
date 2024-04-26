@@ -23,7 +23,7 @@ Hosted by [The Center Quantitative Cell Biology (QCB)](https://qcb.illinois.edu/
 | 5   | Friday, May 10| Shulei Wang, Zan Luthey-Schulten                     | Introduction to machine learning of LM trajectories of the minimal cell and bringing cells to Minecraft| -                                                         | Rong Wei, Kevin Tan, Tianyu Wu                  |
 
 ## Sections on Lattice Microbe
-
+![LM](./images/lm.png)
 The workshop will feature a series of lectures, hands-on sessions, and discussions led by renowned scientists in the field. Participants will have the opportunity to engage in interactive sessions that cover a range of topics, including:
 
 - Whole Cell Modeling with CME-ODE on minimal cell
