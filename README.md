@@ -4,8 +4,8 @@ old image code
 ![STC-QCB Workshop 2024 Logo](images/logo.jpg)
 ![LM](./images/lm.png)
 -->
-<img src="./image/logo.jpg" alt="STC-QCB Workshop2024" width="200">
-<img src="./images/lm.png" alt="LM Logo" width="200">
+<img src="./images/logo.jpg" alt="STC-QCB Workshop2024" width="400">
+<img src="./images/lm.png" alt="LM Logo" width="400">
 
 Welcome to the repository for the STC-QCB Advanced Workshop 2024, focusing on the Lattice Microbe Part. This workshop is targeted to those who have been using computational tools for a while and want to increase their knowledge and skills. 
 
