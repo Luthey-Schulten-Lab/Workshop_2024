@@ -1,11 +1,13 @@
 # Tutorial: RDME- Bimolecular Reaction
 reaction-diffusion master equations (RDME):
+
 $$
 \begin{aligned}
 & \frac{d P(\mathbf{x}, t)}{d t}=\sum_\nu^V \sum_r^R\left[-a_r\left(\mathbf{x}_\nu\right) P\left(\mathbf{x}_\nu, t\right)+a_r\left(\mathbf{x}_\nu-\mathbf{S}_{\mathbf{r}}\right) P\left(\mathbf{x}_\nu-\mathbf{S}_{\mathbf{r}}, t\right)\right] \\
 & \quad+\sum_\nu^V \sum_{\xi}^{ \pm \hat{i}, \hat{j}, \hat{k}} \sum_\alpha^N\left[-d^\alpha x_\nu^\alpha P(\mathbf{x}, t)+d^\alpha\left(x_{\nu+\xi}^\alpha+1_\nu^\alpha\right) P\left(\mathbf{x}+1_{\nu+\xi}^\alpha-1_\nu^\alpha, t\right)\right]
 \end{aligned}
 $$
+
 ## 0.Environment Check
 if you didn't install the environments in docker or any container, we suggest you do it through anaconda/miniconda.
 
