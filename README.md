@@ -1,4 +1,4 @@
-# STC-QCB Advanced Computational Workshop 2024: Lattice Microbe Part
+# STC-QCB Advanced Computational Workshop 2024: Lattice Microbes Part
 <!---
 old image code
 ![STC-QCB Workshop 2024 Logo](images/logo.jpg)
@@ -11,7 +11,7 @@ old image code
   <img src="./images/lm.png" alt="LM Logo" width="300">
 </p>
 
-Welcome to the repository for the STC-QCB Advanced Workshop 2024, focusing on the Lattice Microbe Part. This workshop is targeted to those who have been using computational tools for a while and want to increase their knowledge and skills. 
+Welcome to the repository for the STC-QCB Advanced Workshop 2024, focusing on Lattice Microbes. This workshop is targeted to those who have been using computational tools for a while and want to increase their knowledge and skills. 
 
 ## About the Workshop
 
