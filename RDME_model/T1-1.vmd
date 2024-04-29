@@ -295,7 +295,7 @@ display aodirect 0.300000
 display dof off
 display dof_fnumber 64.000000
 display dof_focaldist 0.700000
-mol new {/data2/Programs/Workshop_2024/RDME_model/T1-1_bimolecular_uni.lm } type LM first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
+mol new {/data2/Programs/Workshop_2024/RDME_model/T1-1_bimolecular_uni.lm} type LM first 0 last -1 step 1 filebonds 1 autobonds 1 waitfor all
 mol delrep 0 top
 mol representation LatticeCubes 1.000000
 mol color ColorID 1
