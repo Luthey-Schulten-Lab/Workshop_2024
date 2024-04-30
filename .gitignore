@@ -1,7 +1,9 @@
 Old_CodeFiles/
 Replication_Initiaton/
-RDME_model/*.lm
-RDME_model//*.vmd
+RDME/*.lm
+RDME/*.vmd
 *.lm
 .virtual_documents/
 *.vmd
+*.ppm
+*.png
