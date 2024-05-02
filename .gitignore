@@ -1,7 +1,11 @@
+.gitignore
 Old_CodeFiles/
 Replication_Initiaton/
 RDME/*.lm
 RDME/*.vmd
+RDME/__pycache__/
+RDME/.ipynb_checkpoints
+
 *.lm
 .virtual_documents/
 *.vmd
