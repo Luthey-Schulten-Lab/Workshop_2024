@@ -1,4 +1,4 @@
-# STC-QCB Advanced Computational Workshop 2024: Lattice Microbes Part
+# STC-QCB Advanced Computational Workshop 2024: Lattice Microbes and DNA model
 <!---
 old image code
 ![STC-QCB Workshop 2024 Logo](images/logo.jpg)
