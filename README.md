@@ -27,7 +27,7 @@ Hosted by [The Center Quantitative Cell Biology (QCB)](https://qcb.illinois.edu/
 
 | Day | Date         | Instructors                                          | Morning Session                                                                    | Afternoon Session                                                                         | Teaching Assistants                              |
 |-----|--------------|------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-------------------------------------------------|
-| 1   | Monday, May 6| Zan Luthey-Schulten, Zane Thornburg, Ben Gilbert     | Introduction to cellular processes in JCVI-Syn3A and Lattice Microbes             | LM models of metabolism, DNA replication, transcription, translation, and growth         | Enguang Fu, Andrew Maytin, Tianyu Wu            |
+| 1   | Monday, May 6| Zan Luthey-Schulten, Zane Thornburg, Ben Gilbert     | Introduction to cellular processes in JCVI-Syn3A and Lattice Microbes             | **LM models of metabolism, DNA replication, transcription, translation, and growth**         | **Enguang Fu, Andrew Maytin, Tianyu Wu**            |
 | 2   | Tuesday, May 7| Siewert-Jan Marrink, Weria Pezeshkian, Zane Thornburg| Introduction to Martini 2 & 3 force field and tools                               | Martini metabolites, lipids, proteins, ribosomes, and DNA in JCVI-Syn3A                  | Jan Stevens, Aaron Chan, Bart Bruininks         |
 | 3   | Wednesday, May 8| Erik Lindahl, John Stone, Zane Thornburg            | New features of Gromacs and Martini/Gromacs simulations                            | VMD Visualization and Movies of JCVI-Syn3A                                               | Jan Stevens, Enguang Fu, Bart Bruininsk         |
 | 4   | Thursday, May 9| Erik Lindahl, Siewert-Jan Marrink, Emad Tajkorshid   | Further applications of and discussions about Martini/Gromacs simulations         | Free time – projects on NCSA Delta and picnic                                            | -                                               |
@@ -37,8 +37,8 @@ Hosted by [The Center Quantitative Cell Biology (QCB)](https://qcb.illinois.edu/
 
 The workshop will feature a series of lectures, hands-on sessions, and discussions led by renowned scientists in the field. Participants will have the opportunity to engage in interactive sessions that cover a range of topics, including:
 
-- Whole Cell Modeling with CME-ODE on minimal cell
-- Whole Cell Modeling with RDME-ODE on yeast
+- Whole Cell Modeling with CME-ODE
+- Whole Cell Modeling with RDME-ODE
 - DNA model for minimal cell
 
 There are three different folders to include all the materials needed for each part. 
