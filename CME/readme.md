@@ -6,7 +6,7 @@ In the first day, you will launch several jobs to delta GPU node.
 ssh $USERNAME@delta.ncsa.illinois.edu
 ```
 
-    You need to type you password and do 2FA.
+You need to type you password and do 2FA.
 
 ##  Go into your projects directory and copy tutorials
 ```bash
