@@ -24,7 +24,11 @@ launch a juputer notebook on a delta GPU node using *srun* and ssh into the GPU 
 
 + First: submit a job to delta GPU node
     ```bash
-    srun --account=bcuj-delta-gpu --partition=gpuA100x4 --time=01:00:00 --mem=32g --gpus-per-node=1 --tasks-per-node=1 --cpus-per-task=8 --nodes=1 apptainer exec --nv --containall --bind /projects/bcuj/$USERNAME/Workshop_2024/:/workspace /projects/bcuj/$USERNAME/apptainer/qcb_workshop_2024.sif jupyter-notebook /workspace/ --no-browser --port=8811 --ip=0.0.0.0 --allow-root
+    srun --account=bcuj-delta-gpu --partition=gpuA100x4 --time=01:00:00 --mem=32g\
+    --gpus-per-node=1 --tasks-per-node=1 --cpus-per-task=8 --nodes=1 apptainer exec \
+    --nv --containall --bind /projects/bcuj/$USERNAME/Workshop_2024/:/workspace \
+    /projects/bcuj/$USERNAME/apptainer/qcb_workshop_2024.sif jupyter-notebook \
+    /workspace/ --no-browser --port=8811 --ip=0.0.0.0 --allow-root
     ```
     Then you should wait for Delta to allocate the resources for you, when you see something like this, it means you are good to proceed:
     ```bash
