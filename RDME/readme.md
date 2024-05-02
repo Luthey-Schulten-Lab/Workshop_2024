@@ -2,21 +2,21 @@ In the first day, you will launch several jobs to delta GPU node.
 
 ## Login into Delta login node
 
-    ```bash
-    ssh $USERNAME@delta.ncsa.illinois.edu
-    ```
+```bash
+ssh $USERNAME@delta.ncsa.illinois.edu
+```
 
     You need to type you password and do 2FA.
 
 ##  Go into your projects directory and copy tutorials
-    ```bash
-    cd /projects/bcuj/$USERNAME
-    # copy the source code for the workshop
-    cp /projects/bcuj/twu4/Workshop_2024 ./
-    # copy the apptainer
-    cp /projects/bcuj/twu4/apptainer ./
+```bash
+cd /projects/bcuj/$USERNAME
+# copy the source code for the workshop
+cp /projects/bcuj/twu4/Workshop_2024 ./
+# copy the apptainer
+cp /projects/bcuj/twu4/apptainer ./
 
-    ```
+```
 
 ## Launch the Jupyter Notebook
 
@@ -31,6 +31,7 @@ launch a juputer notebook on a delta GPU node using *srun* and ssh into the GPU 
     /workspace/ --no-browser --port=8811 --ip=0.0.0.0 --allow-root
     ```
     Then you should wait for Delta to allocate the resources for you, when you see something like this, it means you are good to proceed:
+    
     ```bash
     srun: job 3546627 queued and waiting for resources
     srun: job 3546627 has been allocated resources
