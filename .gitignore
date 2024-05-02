@@ -5,7 +5,7 @@ RDME/*.lm
 RDME/*.vmd
 RDME/__pycache__/
 RDME/.ipynb_checkpoints
-RDME/TutR3_GalactoseSwitch
+# RDME/TutR3_GalactoseSwitch
 *.lm
 .virtual_documents/
 *.vmd
