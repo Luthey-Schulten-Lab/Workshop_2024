@@ -46,27 +46,23 @@ launch a juputer notebook on a delta GPU node using *srun* and ssh into the GPU 
         To access the notebook, open this file in a browser:
             file:///u/$USERNAME/.local/share/jupyter/runtime/nbserver-13-open.html
         Or copy and paste one of these URLs:
-            http://gpua021.delta.ncsa.illinois.edu:$Port/?token=b2e7ca15cd9dc3a6893a1273e359c88869225bc29d66c80c
+            http://`$DeltaNode`.delta.ncsa.illinois.edu:$Port/?token=b2e7ca15cd9dc3a6893a1273e359c88869225bc29d66c80c
         or http://127.0.0.1:$Port/?token=b2e7ca15cd9dc3a6893a1273e359c88869225bc29d66c80c
     ```
 
-    The last two line contains the delta GPU node `$DeltaNode`, gpua021 in this case.
+    The last two line contains the delta GPU node `$DeltaNode`.
 
 + Second: ssh into the delta GPU node.
-    Open a new terminal.
+    Open a second terminal.
   Your `$DeltaNode` can be found from the information above in last two lines after `http://`. ***replace*** `$DeltaNode` with your node you see above and ***replace*** `$USERNAME` with your username, for me its `twu4`. ***Replace*** `$Port` with the 4 digit number you used.
     
     ```bash
     ssh -l $USERNAME  -L 127.0.0.1:$Port:$DeltaNode.delta.internal.ncsa.edu:$Port dt-login.delta.ncsa.illinois.edu
     ```
-    The command you should type in your local laptop console should be like this:
-    ```bash
-    ssh -l twu4 -L 127.0.0.1:8811:gpua021.delta.internal.ncsa.edu:8811 dt-login.delta.ncsa.illinois.edu
-    ```
 
-    You need to type you password and do 2FA.
+    You need to type you password and do 2FA AGAIN.
 
-+ Third: Copy the last line and paste to one browser to open Jupyter Notebook.
++ Third: Copy the last line in the first terminal and paste to one browser to open Jupyter Notebook.
 
     ``` bash
     http://127.0.0.1:8811/?token=b2e7ca15cd9dc3a6893a1273e359c88869225bc29d66c80c
