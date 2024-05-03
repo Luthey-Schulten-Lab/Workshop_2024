@@ -23,13 +23,13 @@ cp -r /projects/bcuj/sharefile/Workshop_2024/LM ./
 
 launch a juputer notebook on a delta GPU node using *srun* and ssh into the GPU node remotely to do the tutorials.
 
-+ First: submit a job to delta GPU node
++ ***First***: submit a job to delta GPU node
 
     ***Replace*** $Port with a non-trivial number (Don't use 8888) to avoid using the same port as others.
     ```bash
     srun --account=bcuj-delta-gpu --partition=gpuA100x4 --time=08:00:00 --mem=64g --gpus-per-node=1 --tasks-per-node=1 --cpus-per-task=16 --nodes=1 apptainer exec --nv --containall --bind /projects/bcuj/$USER/:/workspace /projects/bcuj/$USER/LM/LM.sif jupyter-notebook /workspace/ --no-browser --port=$Port --ip=0.0.0.0 --allow-root
     ```
-        ```bash
+    ```bash
     srun --account=bcuj-delta-gpu --partition=gpuA100x4 --time=08:00:00 --mem=64g --gpus-per-node=1 --nodes=1 apptainer exec --nv --containall --bind /projects/bcuj/$USER/:/workspace /projects/bcuj/$USER/LM/LM.sif jupyter-notebook /workspace/ --no-browser --port=$Port --ip=0.0.0.0 --allow-root
     ```
     
@@ -56,9 +56,9 @@ launch a juputer notebook on a delta GPU node using *srun* and ssh into the GPU 
 
     The last two line contains the delta GPU node `$DeltaNode`.
 
-+ Second: ssh into the delta GPU node.
++ ***Second***: ssh into the delta GPU node.
     Open a second terminal.
-  Your `$DeltaNode` can be found from the information above in last two lines after `http://`. ***replace*** `$DeltaNode` with your node you see above and ***replace*** `$USERNAME` with your username, for me its `twu4`. ***Replace*** `$Port` with the 4 digit number you used.
+  Your `$DeltaNode` can be found from the information above in last two lines after `http://`. ***replace*** `$DeltaNode` with your node you see above and ***replace*** `$USERNAME` with your username. ***Replace*** `$Port` with the 4 digit number you used.
     
     ```bash
     ssh -l $USERNAME  -L 127.0.0.1:$Port:$DeltaNode.delta.internal.ncsa.edu:$Port dt-login.delta.ncsa.illinois.edu
@@ -66,7 +66,7 @@ launch a juputer notebook on a delta GPU node using *srun* and ssh into the GPU 
 
     You need to type you password and do 2FA AGAIN.
 
-+ Third: Copy the last line in the first terminal and paste to one browser to open Jupyter Notebook.
++ ***Third***: Copy the last line in the first terminal and paste to one browser to open Jupyter Notebook.
 
     ``` bash
     http://127.0.0.1:8811/?token=b2e7ca15cd9dc3a6893a1273e359c88869225bc29d66c80c
