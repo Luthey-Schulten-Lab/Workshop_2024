@@ -5,7 +5,7 @@ old image code
 ![LM](./images/lm.png)
 -->
 <p align="center">
-  <img src="./images/logo.jpg" alt="STC-QCB Workshop2024" width="700"> 
+  <img src="./images/logo.jpg" alt="STC-QCB Workshop2024" width="600"> 
 </p>
 
 Welcome to the repository for the STC-QCB Advanced Workshop 2024, focusing on Lattice Microbes. This workshop is targeted to those who have been using computational tools for a while and want to increase their knowledge and skills. 
@@ -44,23 +44,24 @@ The LM section of the workshop will feature a series of lectures, hands-on sessi
 Link to Software: [Lattice Microbes Github](https://github.com/Luthey-Schulten-Lab/Lattice_Microbes)
 
 Related Publications:
-- Roberts et al. J. Comp Chem 2012 [Link](https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.23130)
-- Bianchi et al. IET Systems Biology 2018 [Link](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-syb.2017.0070)
-- Thornburg et al. Cell 2022 [Link](https://www.cell.com/cell/fulltext/S0092-8674(21)01488-4)
+- Roberts et al. _J. Comp. Chem._ 2012 [(Link)](https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.23130)
+- Bianchi et al. _IET Systems Biology,_ 2018 [(Link)](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-syb.2017.0070)
+- Thornburg et al. _Cell_ 2022 [(Link)](https://www.cell.com/cell/fulltext/S0092-8674(21)01488-4)
 
 
 ## Section on DNA Modeling
 <p align="center">
   <img src="./images/2chromo_example_v2.png" alt="bTreeChromo Logo" height="300">
 </p>
-The DNA Modeling section of the workshop will feature a series of lectures, hands-on sessions, and discussions led by renowned scientists in the field. Participants will have the opportunity to engage in interactive sessions that focus on modeling the bacterial chromosome including:
-- Brownian Dynamics of the chromosome
-- Replication of the chromosome
-- Protein-DNA interactions restructuring the chromosome organization
+
+The DNA Modeling section of the workshop will feature a series of lectures, hands-on sessions, and discussions led by renowned scientists in the field. Participants will have the opportunity to engage in interactive sessions that focus on modeling the bacterial chromosome using a C++ program, bTreeChromo. Hands-on tutorials will cover modeling approaches such as:
+- Brownian Dynamics Simulations of the chromosome
+- Chromsome Replication 
+- Chromsome Organization Restructuring from Protein-DNA interactions
 
 Link to Software [bTreeChromo Github](https://github.com/brg4/btree_chromo)
 
-Link to Pubilication [Gilbert et al. Frontiers in Cell & Dev Bio 2023](https://www.frontiersin.org/articles/10.3389/fcell.2023.1214962/full)
+Link to Pubilication [Gilbert et al. _Frontiers in Cell & Dev. Bio.,_ 2023](https://www.frontiersin.org/articles/10.3389/fcell.2023.1214962/full)
 
 
 ## Contact Us
