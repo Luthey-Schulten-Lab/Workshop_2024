@@ -58,7 +58,7 @@ launch a juputer notebook on a delta GPU node using *srun* and ssh into the GPU 
 
 + ***Second***: ssh into the delta GPU node.
     Open a second terminal.
-  Your `$DeltaNode` can be found from the information above in last two lines after `http://`. ***replace*** `$DeltaNode` with your node you see above and ***replace*** `$USERNAME` with your username. ***Replace*** `$Port` with the 4 digit number you used.
+  Your `$DeltaNode` can be found from the information above in last two lines after `http://`. ***Replace*** `$DeltaNode` with your node you see above and ***Replace*** `$USERNAME` with your username. ***Replace*** `$Port` with the 4 digit number you used.
     
     ```bash
     ssh -l $USERNAME  -L 127.0.0.1:$Port:$DeltaNode.delta.internal.ncsa.edu:$Port dt-login.delta.ncsa.illinois.edu
