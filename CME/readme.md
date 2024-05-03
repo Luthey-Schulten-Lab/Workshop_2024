@@ -78,6 +78,8 @@ You will submit a job to run Whole Cell Model in parallel on delta GPU node.
 
 In the given bash file, you will launch 2 minutes simulation of 4 replicates.
 
+Open a new terminal and login to Delta.
+
 + First: go to *programs* folder
 
     ``` bash
