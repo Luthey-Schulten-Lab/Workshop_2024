@@ -1,14 +1,11 @@
-# STC-QCB Advanced Computational Workshop 2024: Lattice Microbes and DNA model
+# <img src="./images/STC_logo.png" alt="STC-QCB logo" height="65"> STC-QCB Advanced Computational Workshop 2024: Lattice Microbes and DNA model 
 <!---
 old image code
 ![STC-QCB Workshop 2024 Logo](images/logo.jpg)
 ![LM](./images/lm.png)
 -->
 <p align="center">
-  <img src="./images/logo.jpg" alt="STC-QCB Workshop2024" width="600">
-</p>
-<p align="center">
-  <img src="./images/lm.png" alt="LM Logo" width="300">
+  <img src="./images/logo.jpg" alt="STC-QCB Workshop2024" width="700"> 
 </p>
 
 Welcome to the repository for the STC-QCB Advanced Workshop 2024, focusing on Lattice Microbes. This workshop is targeted to those who have been using computational tools for a while and want to increase their knowledge and skills. 
@@ -17,7 +14,7 @@ Welcome to the repository for the STC-QCB Advanced Workshop 2024, focusing on La
 
 Diverse experimental data characterizing the cellular state and processes of the synthetic genetically minimal bacterial cell, JCVI-Syn3A, have been integrated into 4DWCM simulations of its time dependent cell states. Dynamics of the cell states and biomolecules are described at the composite particle level using Lattice Microbes,  at the coarse-grained atomistic level using Martini/GROMACS, and at the all atom level using NAMD2 and GROMACS. For each representation, visualization is performed using VMD.  The workshop will demonstrate how each computational method is performed on Syn3A and how information is passed between each program.
 
-Hosted by [The Center Quantitative Cell Biology (QCB)](https://qcb.illinois.edu/), this workshop aims to provide participants with an in-depth understanding of the lattice microbe v2.4 for the whole-cell modeling.
+Hosted by [The Center Quantitative Cell Biology (QCB)](https://qcb.illinois.edu/), this workshop aims to provide participants with an in-depth understanding of the Lattice Microbes v2.4 for whole-cell modeling.
 
 ### Schedule
 - **Date:** May 6, 2024 - May 10, 2024 
@@ -34,14 +31,37 @@ Hosted by [The Center Quantitative Cell Biology (QCB)](https://qcb.illinois.edu/
 | 5   | Friday, May 10| Shulei Wang, Zan Luthey-Schulten                     | Introduction to machine learning of LM trajectories of the minimal cell and bringing cells to Minecraft| -                                                         | Rong Wei, Kevin Tan, Tianyu Wu                  |
 
 ## Sections on Lattice Microbes
+<p align="center">
+  <img src="./images/lm.png" alt="LM Logo" width="250">
+</p>
+The LM section of the workshop will feature a series of lectures, hands-on sessions, and discussions led by renowned scientists in the field. Participants will have the opportunity to engage in interactive sessions that cover a range of topics including:
 
-The workshop will feature a series of lectures, hands-on sessions, and discussions led by renowned scientists in the field. Participants will have the opportunity to engage in interactive sessions that cover a range of topics, including:
+- Stochastic Modeling with Chemical Master Equation (CME)
+- Stochastic Modeling with Reaction Diffusion Master Equation (RDME)
+- Whole-cell Modeling with CME-ODE
+- Whole-cell Modeling with RDME-ODE
 
-- Whole Cell Modeling with CME-ODE
-- Whole Cell Modeling with RDME-ODE
-- DNA model for minimal cell
+Link to Software: [Lattice Microbes Github](https://github.com/Luthey-Schulten-Lab/Lattice_Microbes)
 
-There are three different folders to include all the materials needed for each part. 
+Related Publications:
+- Roberts et al. J. Comp Chem 2012 [Link](https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.23130)
+- Bianchi et al. IET Systems Biology 2018 [Link](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/iet-syb.2017.0070)
+- Thornburg et al. Cell 2022 [Link](https://www.cell.com/cell/fulltext/S0092-8674(21)01488-4)
+
+
+## Section on DNA Modeling
+<p align="center">
+  <img src="./images/2chromo_example_v2.png" alt="bTreeChromo Logo" height="300">
+</p>
+The DNA Modeling section of the workshop will feature a series of lectures, hands-on sessions, and discussions led by renowned scientists in the field. Participants will have the opportunity to engage in interactive sessions that focus on modeling the bacterial chromosome including:
+- Brownian Dynamics of the chromosome
+- Replication of the chromosome
+- Protein-DNA interactions restructuring the chromosome organization
+
+Link to Software [bTreeChromo Github](https://github.com/brg4/btree_chromo)
+
+Link to Pubilication [Gilbert et al. Frontiers in Cell & Dev Bio 2023](https://www.frontiersin.org/articles/10.3389/fcell.2023.1214962/full)
+
 
 ## Contact Us
 
@@ -49,9 +69,11 @@ For any inquiries related to the workshop, please feel free to contact us at qcb
 
 Stay updated with the latest news and announcements by visiting our official website: [QCB Workshop Official Website](https://qcb.illinois.edu/).
 
+
 ## Acknowledgements
 
-We would like to extend our gratitude to Professor Zaida Luthey-Schulten and her group members who are making this event possible. And great thanks to all previous group members and external collaborators who made lattice microbe package.
+We would like to extend our gratitude to Professor Zaida Luthey-Schulten and her group members who are making this event possible. Great thanks to all previous group members and external collaborators who made Lattice Microbes software.
+
 
 ## License
 
