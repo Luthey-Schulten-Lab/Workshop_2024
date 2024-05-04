@@ -14,7 +14,7 @@
 export HYDRA_BOOTSTRAP=fork
 
 # Run the Python script
-apptainer exec --nv --bind /projects/bcuj/$USER/ /projects/bcuj/$USER/LM/LM.sif mpirun -np 4 python /projects/bcuj/$USER/LM/CME/WholeCellModel/programs/WCM_CMEODE_Hook.py -st cme-ode -t 120 -rs 60 -hi 1 -f "/projects/bucj/"$USER"/LM/CME/WholeCellModel/output_4replicates"
+apptainer exec --nv --bind /projects/bcuj/$USER/ /projects/bcuj/$USER/LM/LM.sif mpirun -np 4 python /projects/bcuj/$USER/LM/CME/WholeCellModel/programs/WCM_CMEODE_Hook.py -st cme-ode -t 120 -rs 60 -hi 1 -f "/projects/bcuj/"$USER"/LM/CME/WholeCellModel/output_4replicates"
 
 
 # The bash file to launch parallel CMEODE simulations
