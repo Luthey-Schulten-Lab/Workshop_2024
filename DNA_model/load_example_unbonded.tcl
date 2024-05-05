@@ -37,7 +37,7 @@ set ribo_rad 70.0
 set bdry_rad 32.5
 
 # set the file to be loaded
-set molecule_file test_trajectory.lammpstrj
+set molecule_file example_unbonded.lammpstrj
 
 # load the new molecule
 mol new $molecule_file  waitfor all type lammpstrj step 1
