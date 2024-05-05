@@ -124,7 +124,7 @@ In the Apptainer window run 'preparing_physical_structure_directives.inp':
 **Visualizing train-track replication with VMD:**\
 You will now copy over the .xyz files from Delta to your local machine in order to visualize them in vmd.
 ```bash
-scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/$USERNAME/btree_chromo_workspace/examples/preparing_physical_structure/*.xyz .
+scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/$USERNAME/btree_chromo_workspace/examples/preparing_physical_structure/\*.xyz .
 ```
 (Alternatively, instead of `.` you may choose to specify path to a local directory.)
 
@@ -177,12 +177,12 @@ Save your changes and run the directives file.
 **Visualizing LAMMPS trajectories with VMD:**\
 You will now copy over the .lammpstrj files from Delta to your local machine in order to visualize them in vmd.
 ```bash
-scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/$USERNAME/btree_chromo_workspace/examples/simulating_chromosome_with_replication/*.lammpstrj .
+scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/$USERNAME/btree_chromo_workspace/examples/simulating_chromosome_with_replication/\*.lammpstrj .
 ```
 (Alternatively, instead of `.` you may choose to specify path to a local directory.)
 We will also copy over the .tcl scripts which will create nice representations for the DNA, ribosomes and boundary particles.  
 ```bash
-scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/sharefile/Workshop_2024/DNA_model/*.tcl .
+scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/sharefile/Workshop_2024/DNA_model/\*.tcl .
 ```
 
 In VMD, delete the previous two molecules. Open the VMD TkConsole and do (Extensions->Tk Console). In the Tk Console, do `source load_example_full.tcl`. See the DNA polymer replicate!
@@ -246,7 +246,7 @@ Save your changes and run the directives file.
 **Visualizing LAMMPS trajectories with VMD:**\
 You will now copy over the .lammpstrj files from Delta to your local machine in order to visualize them in vmd.
 ```bash
-scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/$USERNAME/btree_chromo_workspace/examples/simulating_chromosome_with_loops_and_topo/*.lammpstrj .
+scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/$USERNAME/btree_chromo_workspace/examples/simulating_chromosome_with_loops_and_topo/\*.lammpstrj .
 ```
  In the Tk Console, do `source load_example_loops.tcl`. Anchors are colored black, while hinges are colored white.
  
