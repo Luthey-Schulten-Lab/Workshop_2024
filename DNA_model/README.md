@@ -22,13 +22,13 @@ Replace the $USERNAME with your username. You will need to type your password an
 
 **Step 2: Create workspace and copy examples folder**
 ```bash
-bash /projects/bbsv/brg4/btree_chromo_files/prelaunch_btree_chromo.sh  
+bash /projects/bcuj/sharefile/Workshop_2024/DNA_model/prelaunch_btree_chromo.sh  
 ```
 This bash script creates a workspace `/projects/bcuj/${USER}/btree_chromo_workspace`. It also copies the `examples` directory into the workspace, which contains example input and output files for **btree_chromo**. 
 
 **Step 3: Launch the container**
 ```bash
-bash /projects/bbsv/brg4/btree_chromo_files/launch_btree_chromo.sh  
+bash /projects/bcuj/sharefile/Workshop_2024/DNA_model/launch_btree_chromo.sh  
 ```
 This will run the container in interactive mode. You should now see the `Apptainer>` prompt which indicates your have entered the container. We will be running btree_chromo and viewing the terminal output in the container.
 
