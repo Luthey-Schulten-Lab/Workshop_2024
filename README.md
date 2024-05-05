@@ -5,7 +5,7 @@ old image code
 ![LM](./images/lm.png)
 -->
 <p align="center">
-  <img src="./images/workshop2024_logo.png" alt="STC-QCB Workshop2024" width="600"> 
+  <img src="./images/logo.jpg" alt="STC-QCB Workshop2024" width="600"> 
 </p>
 
 Welcome to the repository for the STC-QCB Advanced Workshop 2024, focusing on Lattice Microbes. This workshop is targeted to those who have been using computational tools for a while and want to increase their knowledge and skills. 
@@ -32,7 +32,7 @@ Hosted by [The Center Quantitative Cell Biology (QCB)](https://qcb.illinois.edu/
 
 ## Sections on Lattice Microbes
 <p align="center">
-  <img src="./images/lm.png" alt="LM Logo" width="250">
+  <img src="./images/workshop2024_logo.png" alt="LM Logo" width="600">
 </p>
 The LM section of the workshop will feature a series of lectures, hands-on sessions, and discussions led by renowned scientists in the field. Participants will have the opportunity to engage in interactive sessions that cover a range of topics including:
 
