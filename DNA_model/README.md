@@ -7,10 +7,10 @@ Here, we simulate DNA replication and dynamics using the program btree_chromo, a
 Powerpoint slides to go with tutorial instructions:
 [github.com/Luthey-Schulten-Lab/Workshop_2024/tree/main/DNA_model](https://github.com/Luthey-Schulten-Lab/Workshop_2024/tree/main/DNA_model)
 
-**Outline of tutorial:** 
-Part 1: Modeling Replication States 
-Part 2: Preparing the Physical Structure
-Part 3: Simulating Chromosome Dynamics
+**Outline of tutorial:** \
+Part 1: Modeling Replication States \
+Part 2: Preparing the Physical Structure \
+Part 3: Simulating Chromosome Dynamics \
 Part 4: Analysis, Conversion to LM and MARTINI (slides only)
 
 ## Setting up the tutorial
@@ -32,7 +32,7 @@ bash /projects/bbsv/brg4/btree_chromo_files/launch_btree_chromo.sh
 ```
 This will run the container in interactive mode. You should now see the `Apptainer>` prompt which indicates your have entered the container. We will be running btree_chromo and viewing the terminal output in the container.
 
-**Important:** The btree_chromo  exectuable is within the container in `/Software/btree_chromo/build/apps/`. 
+**Important:** The btree_chromo  exectuable is within the container in `/Software/btree_chromo/build/apps/`. \
 **Important:** We have mounted `/projects/bcuj/${USER}/btree_chromo_workspace/examples` into the container in `/mnt/examples`. All changes made in the workspace will be reflected in the container.
 
 **Step 4: Open a new terminal window**\
@@ -146,10 +146,10 @@ By turning off these switches, we are effectively removing terms from the whole 
 $$U= \sum_{i=1}^{N_{\mathrm{DNA}}}\left[U_i^b+U_i^t+U_i^a+U_i^s\right] +\sum_{i=1}^{N_{\mathrm{DNA}}-1} \sum_{j=i+1}^{N_{\mathrm{DNA}}} U_{i j}^{\mathrm{DNA}-\mathrm{DNA}}+\sum_{i=1}^{N_{\mathrm{DNA}}} \sum_j^{N_{\text {ribo }}} U_{i j}^{\mathrm{DNA}-\text { ribo }} +\sum_{i=1}^{N_{\text {ribo }}-1} \sum_{j=i+1}^{N_{\text {ribo }}} U_{i j}^{\text {ribo-ribo }} +\sum_{i=1}^{N_{\text {bdry }}} \sum_j^{N_{\mathrm{DNA}}} U_{i j}^{\text {bdry-DNA }}+\sum_{i=1}^{N_{\text {bdry }}} \sum_j^{N_{\text {ribo }}} U_{i j}^{\text {bdry-ribo }}.$$
 Turning off bending removes the $U_i^b$ (cosine potential for bending), turning off twisting removes the $U_i^t$ and $U_i^a$ (cosine potentials for twisting and aligning), and turning off bonds will remove all of these as well as the $U_i^s$ (FENE potentials for stretching) resulting in separate diffusing DNA monomers rather than a DNA polymer. The other five terms in the energy function are for excluded volume interactions (purely repulsive Weeks-Chandler-Andersen (WCA) pair potentials).
 
-We will now perform several simulation runs and will visualize their trajectories in VMD: \
-1 . Simulation with replication, using full Hamiltonian (the energy function with all terms) \
-2 . Simulation without twisting and bending potentials \
-3 . Simulation without bonds to show diffusing DNA monomers \
+We will now perform several simulation runs and will visualize their trajectories in VMD: 
+1. Simulation with replication, using full Hamiltonian (the energy function with all terms) 
+2. Simulation without twisting and bending potentials 
+3. Simulation without bonds to show diffusing DNA monomers 
 Each run should not take more than 3 minutes.
 
 **Full Hamiltonian run:**\
