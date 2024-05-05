@@ -235,7 +235,7 @@ freq_topo=50000
 dNt_topo=50000
 ```
 **Simulating with loops and topoisomerase:**\
-In your second terminal, go to `/examples/simulating_chromosome_with_loops_and_topo/` and open 'simulating_chromosome_with_loops_and_topo.inp'. Make sure that "terminate" is commented, and "switch_skip_runs" is set to "F". 
+In your second terminal, go to `/examples/simulating_chromosome_with_loops_and_topo/` and open 'simulating_chromosome_with_loops_and_topo_directives.inp'. Make sure that "terminate" is commented, and "switch_skip_runs" is set to "F". 
 
 In line 52, rename the LAMMPS simulation output to ",example_loops".
 
