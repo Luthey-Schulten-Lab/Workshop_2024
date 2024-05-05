@@ -182,7 +182,7 @@ scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/$USERNAME/btree_chrom
 (Alternatively, instead of `.` you may choose to specify path to a local directory.)
 We will also copy over the .tcl scripts which will create nice representations for the DNA, ribosomes and boundary particles.  
 ```bash
-scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/amaytin/*.tcl .
+scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/sharefile/Workshop_2024/DNA_model/*.tcl .
 ```
 
 In VMD, delete the previous two molecules. Open the VMD TkConsole and do (Extensions->Tk Console). In the Tk Console, do `source load_example_full.tcl`. See the DNA polymer replicate!
