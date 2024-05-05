@@ -149,7 +149,8 @@ Turning off bending removes the $U_i^b$ (cosine potential for bending), turning 
 We will now perform several simulation runs and will visualize their trajectories in VMD: 
 1. Simulation with replication, using full Hamiltonian (the energy function with all terms) 
 2. Simulation without twisting and bending potentials 
-3. Simulation without bonds to show diffusing DNA monomers 
+3. Simulation without bonds to show diffusing DNA monomers
+   
 Each run should not take more than 3 minutes.
 
 **Full Hamiltonian run:**\
