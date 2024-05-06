@@ -36,7 +36,11 @@ This will run the container in interactive mode. You should now see the `Apptain
 **Important:** We have mounted `/projects/bcuj/${USER}/btree_chromo_workspace/examples` into the container in `/mnt/examples`. All changes made in the workspace will be reflected in the container.
 
 **Step 4: Open a new terminal window**\
-In a new terminal window, repeat step 1 and `cd  /projects/bcuj/${USER}/btree_chromo_workspace/examples`. Viewing and editing of the example files will be done within this terminal window.
+In a new terminal window, repeat step 1 and 
+```bash
+cd  /projects/bcuj/${USER}/btree_chromo_workspace/examples
+```
+Viewing and editing of the example files will be done within this terminal window.
 ## Modeling Replication States
 In this section, you will learn how to represent replication states, including nested theta structures, with a binary tree model.
 
