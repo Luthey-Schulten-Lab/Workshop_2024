@@ -72,34 +72,11 @@ launch a juputer notebook on a delta GPU node using *srun* and ssh into the GPU 
     http://127.0.0.1:8811/?token=b2e7ca15cd9dc3a6893a1273e359c88869225bc29d66c80c
     ```
 
-## CME/ODE Whole Cell simulation in Parallel
+## Download trajectory results
+    If you familiar with the `scp` command, just do it in your local terminal.
 
-You will submit a job to run Whole Cell Model in parallel on delta GPU node.
-
-In the given bash file, you will launch 2 minutes simulation of 4 replicates.
-
-Open a new terminal and login to Delta.
-
-+ First: go to *programs* folder
-
-    ``` bash
-    cd /projects/bcuj/$USER/LM/CME/WholeCellModel/programs
-    ```
-
-+ Second: Just submit the bash file
-
+  + Open a new terminal in your laptop.
+  + Copy the command below
     ```bash
-    sbatch mpirun.sh
+    scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/$USERNAME/LM/RDME/*.lm ./
     ```
-+ Third: Check your job
-    Check the status of your job. *PD* means waiting to run, *R* running.
-
-    ```bash
-    squeue -u $USER
-    ```
-    go to *output_4replicates* folder 
-    
-    ``` bash
-    cd /projects/bcuj/$USER/LM/CME/WholeCellModel/output_4replicates
-    ```
-
