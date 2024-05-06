@@ -41,10 +41,19 @@ In a new terminal window, repeat step 1 and
 cd  /projects/bcuj/${USER}/btree_chromo_workspace/examples
 ```
 Viewing and editing of the example files will be done within this terminal window.
+
+## Important!!
+
+We will henceforth refer to the terminal running the container as "**Apptainer terminal**", and the teminal for viewing and editing files as the "**Editor terminal**".
+
 ## Modeling Replication States
 In this section, you will learn how to represent replication states, including nested theta structures, with a binary tree model.
 
-In your second terminal, `ls /preparing_chromosome`:
+In **Editor terminal**, 
+```bash {id="Test"}
+ls /preparing_chromosome
+```
+You should see the following files:
 |File name| Description |
 | --- | --- |
 | preparing_chromosome_directives.inp|contains directives (commands to be executed by btree_chromo) |
@@ -56,11 +65,15 @@ Using a text exitor such as **vim**, open 'preparing_chromosome_directives.inp'.
 
 Make sure that the "terminate'' at the top is commented to execute all of the commands.
 
-Next, in the Apptainer window:
+Next, we will run the program in the **Apptainer terminal**. First, change directories to where the executable is located:
+
+In the **Apptainer terminal**:
 ```bash
 cd /Software/btree_chromo/build/apps
 ```
-and run 'preparing_chromosome_directives.inp':
+Next, in the **Apptainer terminal** run 'preparing_chromosome_directives.inp'.
+
+In the **Apptainer terminal**:
 ```bash
 ./btree_chromo /mnt/examples/preparing_chromosome/preparing_chromosome_directives.inp
 ```
@@ -105,7 +118,7 @@ total_size = 1300
 ## Preparing the Physical Structure
 In this section, you will prepare input coordinates for monomers confined by boundary particles and avoiding ribosomes, and will obtain daughter monomer positions using the train track model. (No actual dynamics will be simulated in this section.)
 
-In your second terminal, move to the next example in `examples/preparing_physical_structure`.
+In the **Editor terminal**, move to the next example in `examples/preparing_physical_structure`.
 There are several file types in this directory. Here are what they are used for:
 |File type| Description |
 | --- | --- |
@@ -121,12 +134,17 @@ transforms_file:/mnt/examples/preparing_chromosome/transforms.dat
 ```
 Make sure you are saving your changes.
 
-In the Apptainer window run 'preparing_physical_structure_directives.inp':
+Run 'preparing_physical_structure_directives.inp':
+
+In the **Apptainer terminal**:
 ```bash
 ./btree_chromo /mnt/examples/preparing_chromosome/preparing_physical_structure_directives.inp
 ```
 **Visualizing train-track replication with VMD:**\
-You will now copy over the .xyz files from Delta to your local machine in order to visualize them in vmd.
+Open a third terminal, henceforth referred to as **Local terminal**.
+You will now copy over the .xyz files from Delta to your local machine in order to visualize them in vmd. 
+
+In the **Local terminal**:
 ```bash
 scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/$USERNAME/btree_chromo_workspace/examples/preparing_physical_structure/\*.xyz .
 ```
@@ -158,7 +176,7 @@ We will now perform several simulation runs and will visualize their trajectorie
 Each run should not take more than 3 minutes.
 
 **Full Hamiltonian run:**\
-In your second terminal, go to `/examples/simulating_chromosome_with_replication/` and open 'simulating_chromosome_with_directives.inp'. Make sure that "terminate" is commented, and "switch_skip_runs" is set to "F". 
+In the **Editor terminal**, go to `/examples/simulating_chromosome_with_replication/` and open 'simulating_chromosome_with_directives.inp'. Make sure that "terminate" is commented, and "switch_skip_runs" is set to "F". 
 
 In line 48, rename the LAMMPS simulation output to ",example_full".
 
@@ -180,11 +198,15 @@ Save your changes and run the directives file.
 
 **Visualizing LAMMPS trajectories with VMD:**\
 You will now copy over the .lammpstrj files from Delta to your local machine in order to visualize them in vmd.
+
+In the **Local terminal**:
 ```bash
 scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/$USERNAME/btree_chromo_workspace/examples/simulating_chromosome_with_replication/\*.lammpstrj .
 ```
 (Alternatively, instead of `.` you may choose to specify path to a local directory.)
 We will also copy over the .tcl scripts which will create nice representations for the DNA, ribosomes and boundary particles.  
+
+In the **Local terminal**:
 ```bash
 scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/sharefile/Workshop_2024/DNA_model/\*.tcl .
 ```
@@ -239,7 +261,7 @@ freq_topo=50000
 dNt_topo=50000
 ```
 **Simulating with loops and topoisomerase:**\
-In your second terminal, go to `/examples/simulating_chromosome_with_loops_and_topo/` and open 'simulating_chromosome_with_loops_and_topo_directives.inp'. Make sure that "terminate" is commented, and "switch_skip_runs" is set to "F". 
+In the **Editor terminal**, go to `/examples/simulating_chromosome_with_loops_and_topo/` and open 'simulating_chromosome_with_loops_and_topo_directives.inp'. Make sure that "terminate" is commented, and "switch_skip_runs" is set to "F". 
 
 In line 52, rename the LAMMPS simulation output to ",example_loops".
 
@@ -249,6 +271,8 @@ Save your changes and run the directives file.
 
 **Visualizing LAMMPS trajectories with VMD:**\
 You will now copy over the .lammpstrj files from Delta to your local machine in order to visualize them in vmd.
+
+In the **Local terminal**:
 ```bash
 scp $USERNAME@login.delta.ncsa.illinois.edu:/projects/bcuj/$USERNAME/btree_chromo_workspace/examples/simulating_chromosome_with_loops_and_topo/\*.lammpstrj .
 ```
