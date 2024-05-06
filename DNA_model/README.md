@@ -5,7 +5,7 @@ This tutorial was prepared for Day 1 of the STC QCB Advanced Computational Works
 Here, we simulate DNA replication and dynamics using the program btree_chromo, available online at  [github.com/brg4/btree_chromo](https://github.com/brg4/btree_chromo).
 
 Powerpoint slides to go with tutorial instructions:
-[github.com/Luthey-Schulten-Lab/Workshop_2024/tree/main/DNA_model](https://github.com/Luthey-Schulten-Lab/Workshop_2024/tree/main/DNA_model)
+[github.com/Luthey-Schulten-Lab/Workshop_2024/tree/main/DNA_model/DNA_HandsOn_042624.pdf](https://github.com/Luthey-Schulten-Lab/Workshop_2024/tree/main/DNA_model/DNA_HandsOn_042624.pdf)
 
 **Outline of tutorial:** \
 Part 1: Modeling Replication States \
