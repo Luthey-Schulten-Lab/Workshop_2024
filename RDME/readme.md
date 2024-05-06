@@ -73,7 +73,7 @@ launch a juputer notebook on a delta GPU node using *srun* and ssh into the GPU 
     ```
 
 ## Download trajectory results
-    If you familiar with the `scp` command, just do it in your local terminal.
+If you familiar with the `scp` command, just do it in your local terminal.
 
   + Open a new terminal in your laptop.
   + Copy the command below
