@@ -30,12 +30,9 @@ launch a juputer notebook on a delta GPU node using *srun* and ssh into the GPU 
 
     ***Replace*** $Port with a non-trivial number (Don't use 8888) to avoid using the same port as others.
     ```bash
-    srun --account=bcuj-delta-gpu --partition=gpuA100x4 --time=08:00:00 --mem=64g --gpus-per-node=1 --tasks-per-node=1 --cpus-per-task=16 --nodes=1 apptainer exec --nv --containall --bind /projects/bcuj/$USER/:/workspace /projects/bcuj/$USER/LM/LM.sif jupyter-notebook /workspace/ --no-browser --port=$Port --ip=0.0.0.0 --allow-root
+    srun --account=bcuj-delta-gpu --partition=gpuA100x4 --time=08:00:00 --mem=64g --gpus-per-node=1 --ntasks=1 --cpus-per-task=16 --nodes=1 apptainer exec --nv --containall --bind /projects/bcuj/$USER/:/workspace /projects/bcuj/$USER/LM/LM.sif jupyter-notebook /workspace/ --no-browser --port=$Port --ip=0.0.0.0 --allow-root
     ```
-    ```bash
-    srun --account=bcuj-delta-gpu --partition=gpuA100x4 --time=08:00:00 --mem=64g --gpus-per-node=1 --nodes=1 apptainer exec --nv --containall --bind /projects/bcuj/$USER/:/workspace /projects/bcuj/$USER/LM/LM.sif jupyter-notebook /workspace/ --no-browser --port=$Port --ip=0.0.0.0 --allow-root
-    ```
-    
+ 
     Then you should wait for Delta to allocate the resources for you, when you see something like this, it means you are good to proceed:
     ```bash
     srun: job 3546627 queued and waiting for resources
