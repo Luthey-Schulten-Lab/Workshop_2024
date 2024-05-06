@@ -42,11 +42,17 @@ cd  /projects/bcuj/${USER}/btree_chromo_workspace/examples
 ```
 Viewing and editing of the example files will be done within this terminal window.
 
-## Important!!
+## Typical Workflow:
+The general workflow for running **btree_chromo** is as follows:
+1. Prepare an input file (*directives.inp*) containing the directives to be executed by the binary tree program. Lines beginning with '#' are ignored.
+2. Prepare any auxiliary input files needed for the chosen directives.
+3. Run with: `./btree_chromo (some location)/(some name)_directives.inp`
 
-We will henceforth refer to the terminal running the container as "**Apptainer terminal**", and the teminal for viewing and editing files as the "**Editor terminal**".
+**Important!!**
 
-## Modeling Replication States
+We will henceforth refer to the terminal running the container as "**Apptainer terminal**", and the teminal for viewing and editing files, such as directives files, as the "**Editor terminal**".
+
+## 1. Modeling Replication States
 In this section, you will learn how to represent replication states, including nested theta structures, with a binary tree model.
 
 In **Editor terminal**, 
@@ -115,7 +121,7 @@ total_size = 1300
 1. Comment out all the transforms except for the one on line 76, which reads in the file 'transforms.dat'. Exit the directives file and open 'transforms.dat'. Based on these transforms, **what should the final size of the chromosome be?**   Run ‘preparing_chromosome_directives.inp’ and check the terminal output for the 'print' command to see if you were right. 
 2. Now, apply your understanding: edit 'transforms.dat' to **create a scenario where the DNA is exactly doubled**. Challenge: How many leaves and generations can you make?
 
-## Preparing the Physical Structure
+## 2. Preparing the Physical Structure
 In this section, you will prepare input coordinates for monomers confined by boundary particles and avoiding ribosomes, and will obtain daughter monomer positions using the train track model. (No actual dynamics will be simulated in this section.)
 
 In the **Editor terminal**, move to the next example in `examples/preparing_physical_structure`.
@@ -154,7 +160,7 @@ Open vmd and load a new molecule with the unreplicated coordinates (File->New Mo
 
 Feel free to change the representation of the DNA monomers. We recommend using VDW representation style and increasing their radii to something bigger like 13. However, since the main point of this section was a quick visualization, don't worry about it too much. In the next section, we will provide a .tcl script which will create nice representations for the DNA, ribosomes and boundary particles.  
 
-## Simulating Chromosome Dynamics
+## 3. Simulating Chromosome Dynamics
 Take a look in the provided README for btree_chromo: [github.com/brg4/btree_chromo](https://github.com/brg4/btree_chromo). Scroll past the description and installation steps to see the list of possible directives.
 Let's focus our attention on the commands that we can use to toggle various aspects of the Brownian dynamics simulation in LAMMPS, under Spatial System for Simulations: bonds, bending angles, and twisting angles.
 | Directive | Description |
@@ -222,7 +228,7 @@ Then do `source load_example_flexible.tcl` and `source load_example_unbonded.tcl
 |Ribosome|mauve|20.0|
 |Boundary|gray|20.0|
 
-## Simulating Chromosome Dynamics: SMC looping and topoisomerase
+## 4. Simulating Chromosome Dynamics: SMC looping and topoisomerase
 
 Finally, let's run simulations of an unreplicated chromosome under the influence of loops and topoisomerase. The relevant examples are in `/examples/simulating_with_loops_and_topo`. The relevant directives are described in the [README](https://github.com/brg4/btree_chromo/) under Simulator:
 | Directive | Description |
